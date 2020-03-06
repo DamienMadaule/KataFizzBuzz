@@ -13,7 +13,8 @@ public class TestUnitaire {
         Assertions.assertEquals("FizzBuzz", FizzBuzz.SayFizzBuzz(15));
     }
     @Test
-    public void should_print_fizzbuzz_if_divide_by_3(){
+    public void should_print_fizz_if_divide_by_3(){
+        Assertions.assertEquals("Fizz", FizzBuzz.SayFizzBuzz(3));
     }
 
 }
