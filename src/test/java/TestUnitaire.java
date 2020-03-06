@@ -9,7 +9,6 @@ public class TestUnitaire {
     }
     @Test
     public void should_print_fizzbuzz_if_divide_by_3_and_5(int number){
-
+        Assertions.assertEquals("FizzBuzz", FizzBuzz.SayFizzBuzz(15));
     }
-
 }
