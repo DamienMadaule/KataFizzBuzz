@@ -12,6 +12,7 @@ public class TestUnitaire {
     public void should_print_fizzbuzz_if_divide_by_3_and_5(){
         Assertions.assertEquals("FizzBuzz", FizzBuzz.SayFizzBuzz(15));
     }
+    //test si le nombre est divisible par 3
     @Test
     public void should_print_fizz_if_divide_by_3(){
         Assertions.assertEquals("Fizz", FizzBuzz.SayFizzBuzz(3));
